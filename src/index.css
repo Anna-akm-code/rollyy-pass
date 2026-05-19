@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0d0b1a;
+  --bg-card: #161230;
+  --bg-border: #1e1a35;
+
+  --purple-primary: #7c3aed;
+  --purple-secondary: #534AB7;
+  --purple-dark: #2d1b69;
+  --purple-light: #c4b5fd;
+
+  --text-primary: #f0ecff;
+  --text-muted: #7a7694;
+
+  --teal: #5DCAA5;
+  --pink: #ed93b1;
+
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text-primary);
+}
